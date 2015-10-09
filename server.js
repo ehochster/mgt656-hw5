@@ -5,8 +5,8 @@ app.get('/', function(request, response){
     response.send('Hello MGT-656! Code code code');
 });
 
-app.get('/excited-sandpiper', function(request, response){
-    response.send('The sandpiper is lose');
+app.get('/nickname', function(request, response){
+    response.send('excited-sandpiper');
 });
 
 app.listen(
